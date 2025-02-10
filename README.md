@@ -21,3 +21,7 @@ Zenith Retail operates across multiple product categories, catering to a diverse
 - What are the customer demographics associated with each product category?
 - Which transactions have the highest value, and which customers contribute the most revenue?
 - How do purchasing behaviors vary across different genders and product categories?
+
+The SQL queries used to clean and transform data: [Here]()
+
+Targeted SQL queries regarding various business questions can be found: [Here]()
