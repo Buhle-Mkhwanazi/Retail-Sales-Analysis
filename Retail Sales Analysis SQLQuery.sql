@@ -28,7 +28,7 @@ FROM Retail_Sales
 GROUP BY category, gender
 ORDER BY category;
 
--- 7. Transactions where the total sale is greater than $1,000
+-- 7. Transactions where the total sale is greater than R1,000
 SELECT * FROM Retail_Sales WHERE total_sale > 1000;
 
 -- 8. Top revenue-generating customers
