@@ -22,6 +22,6 @@ Zenith Retail operates across multiple product categories, catering to a diverse
 - Which transactions have the highest value, and which customers contribute the most revenue?
 - How do purchasing behaviors vary across different genders and product categories?
 
-The SQL queries used to clean and transform data: [Here]()
+The SQL queries used to clean and transform data: [Here](https://github.com/Buhle-Mkhwanazi/Retail-Sales-Analysis/blob/main/Retail%20Sales%20data%20cleaned.sql)
 
 Targeted SQL queries regarding various business questions can be found: [Here]()
