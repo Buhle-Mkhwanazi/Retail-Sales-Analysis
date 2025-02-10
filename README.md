@@ -10,7 +10,7 @@ Zenith Retail operates across multiple product categories, catering to a diverse
 - Assess the dataset’s completeness by identifying missing or null values and removing incomplete records.
 - Evaluate the number of total transactions and unique customers.
 - Examine purchasing trends by identifying distinct product categories.
-- Calculate key metrics, such as total sales per category, average age of customers purchasing beauty products, and high-value transactions exceeding a total sale of $1,000.
+- Calculate key metrics, such as total sales per category, average age of customers purchasing beauty products, and high-value transactions exceeding a total sale of R1,000.
 - Analyze customer behavior by determining the number of transactions made by each gender across different categories.
 - Identify the top-performing customers based on total sales contributions.
 
