@@ -17,10 +17,15 @@ ORDER BY total_sales DESC;
 
 -- 5. Checking for missing values in key fields (data quality check)
 SELECT 
+    SUM(CASE WHEN transactions_id IS NULL THEN 1 ELSE 0 END) AS missing_transaction_ids,
+    SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS missing_customer_ids,
     SUM(CASE WHEN category IS NULL THEN 1 ELSE 0 END) AS missing_categories,
-    SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS missing_customers,
-    SUM(CASE WHEN total_sale IS NULL THEN 1 ELSE 0 END) AS missing_sales
-FROM Retail_Sales;
+    SUM(CASE WHEN quantiy IS NULL THEN 1 ELSE 0 END) AS missing_quantity_sold,
+    SUM(CASE WHEN total_sale IS NULL THEN 1 ELSE 0 END) AS missing_total_sales,
+    SUM(CASE WHEN age IS NULL THEN 1 ELSE 0 END) AS missing_customer_ages,
+    SUM(CASE WHEN gender IS NULL THEN 1 ELSE 0 END) AS missing_customer_genders,
+	SUM(CASE WHEN cogs IS NULL THEN 1 ELSE 0 END) AS missing_cogs
+FROM [Retail Sales Raw Data]
 
 -- 6. Customer demographics (age and gender) per category
 SELECT category, gender, ROUND(AVG(CAST(age AS FLOAT)), 2) AS avg_age, COUNT(*) AS total_customers
