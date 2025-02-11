@@ -35,6 +35,16 @@ ORDER BY category;
 
 -- 7. Transactions where the total sale is greater than R1,000
 SELECT * FROM Retail_Sales WHERE total_sale > 1000;
+	--Return one category with the most high-value transactions that are greater than R1000.
+	SELECT category, transaction_count 
+		FROM (
+    			SELECT category, COUNT(*) AS transaction_count, 
+          		 RANK() OVER (ORDER BY COUNT(*) DESC) AS rank
+    			FROM Retail_Sales
+   			 WHERE total_sale > 1000
+    			GROUP BY category
+			) ranked_categories
+		WHERE rank = 2;
 
 -- 8. Top revenue-generating customers
 SELECT TOP 10 customer_id, SUM(total_sale) AS total_spent
