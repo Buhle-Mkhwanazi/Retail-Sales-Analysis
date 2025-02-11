@@ -88,3 +88,11 @@ Targeted SQL queries regarding various business questions can be found: [Here](h
     **Business Impact**: Gender-based insights help refine marketing efforts.
 
     **Recommendation**: Tailor advertising and promotions to align with gender-based purchasing behaviors.
+
+### Final Recommendations for Zenith Retail
+
+- Improve data quality by addressing missing values.
+- Optimise inventory and promotions for high and low-performing product categories.
+- Use customer demographics to personalise marketing strategies.
+- Develop VIP programs for high-value customers.
+- Refine gender-based promotions to align with purchasing trends.
