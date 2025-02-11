@@ -26,6 +26,8 @@ The SQL queries used to clean and transform data: [Here](https://github.com/Buhl
 
 Targeted SQL queries regarding various business questions can be found: [Here](https://github.com/Buhle-Mkhwanazi/Retail-Sales-Analysis/blob/main/Retail%20Sales%20Analysis%20SQLQuery.sql)
 
+SQL query breakdown with output data: [Here]()
+
 ### Key Insights and Recommendations
 
 1. Total Number of Records and Unique Customers
