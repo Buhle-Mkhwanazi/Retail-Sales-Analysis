@@ -1,7 +1,7 @@
 # Zenith Retail Sales Analysis
 
 ### Problem Statement
-Zenith Retail, a mid-sized retail company specializing in diverse product categories, seeks to gain a deeper understanding of its sales performance, customer demographics, and purchasing patterns. The company's executive team has requested a comprehensive analysis of sales data to enhance business decision-making and optimize customer engagement strategies. The primary objective of this analysis is to clean and analyze transactional data, uncover key insights, and provide data-driven recommendations that will drive business growth and operational efficiency.
+Zenith Retail, a mid-sized retail company specialising in diverse product categories, seeks to gain a deeper understanding of its sales performance, customer demographics, and purchasing patterns. The company's executive team has requested a comprehensive analysis of sales data to enhance business decision-making and optimise customer engagement strategies. The primary objective of this analysis is to clean and analyse transactional data, uncover key insights, and provide data-driven recommendations that will drive business growth and operational efficiency.
 
 ### Background and Overview
 Zenith Retail operates across multiple product categories, catering to a diverse customer base. The company records transactional data in a database, capturing essential details such as transaction ID, customer ID, product category, quantity sold, cost of goods sold (COGS), total sale value, and customer demographics (age and gender). However, before conducting meaningful analysis, it is essential to ensure data quality by identifying and handling missing or inconsistent data points.
@@ -11,7 +11,7 @@ Zenith Retail operates across multiple product categories, catering to a diverse
 - Evaluate the number of total transactions and unique customers.
 - Examine purchasing trends by identifying distinct product categories.
 - Calculate key metrics, such as total sales per category, average age of customers purchasing beauty products, and high-value transactions exceeding a total sale of R1,000.
-- Analyze customer behavior by determining the number of transactions made by each gender across different categories.
+- Analyse customer behavior by determining the number of transactions made by each gender across different categories.
 - Identify the top-performing customers based on total sales contributions.
 
 ### The key questions to be answered include:
@@ -40,7 +40,7 @@ Targeted SQL queries regarding various business questions can be found: [Here](h
 
    **Findings**: There are 3 distinct product categories. The highest revenue-generating category is Category Electronics with R313 810 in sales, followed by Category Clothing and Category Beauty.
 
-   **Business Impact**: Identifying top-performing categories helps optimize inventory and marketing strategies.
+   **Business Impact**: Identifying top-performing categories helps optimise inventory and marketing strategies.
 
    **Recommendation**: Invest in promotions for high-performing categories while reassessing the strategy for lower-performing ones.
 
@@ -76,7 +76,7 @@ Targeted SQL queries regarding various business questions can be found: [Here](h
 
     **Business Impact**: These customers are critical for business sustainability.
 
-    **Recommendation**: Implement VIP loyalty programs and personalized outreach to retain these customers.
+    **Recommendation**: Implement VIP loyalty programs and personalised outreach to retain these customers.
 
 12. Purchasing Behavior by Gender
 
