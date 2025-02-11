@@ -6,7 +6,7 @@ Zenith Retail, a mid-sized retail company specializing in diverse product catego
 ### Background and Overview
 Zenith Retail operates across multiple product categories, catering to a diverse customer base. The company records transactional data in a database, capturing essential details such as transaction ID, customer ID, product category, quantity sold, cost of goods sold (COGS), total sale value, and customer demographics (age and gender). However, before conducting meaningful analysis, it is essential to ensure data quality by identifying and handling missing or inconsistent data points.
 
-### facilitate this analysis, I will:
+### To facilitate this analysis, I will:
 - Assess the dataset’s completeness by identifying missing or null values and removing incomplete records.
 - Evaluate the number of total transactions and unique customers.
 - Examine purchasing trends by identifying distinct product categories.
@@ -25,3 +25,64 @@ Zenith Retail operates across multiple product categories, catering to a diverse
 The SQL queries used to clean and transform data: [Here](https://github.com/Buhle-Mkhwanazi/Retail-Sales-Analysis/blob/main/Retail%20Sales%20data%20cleaned.sql)
 
 Targeted SQL queries regarding various business questions can be found: [Here](https://github.com/Buhle-Mkhwanazi/Retail-Sales-Analysis/blob/main/Retail%20Sales%20Analysis%20SQLQuery.sql)
+
+### Key Insights and Recommendations for Zenith Retail
+
+1. Total Number of Records and Unique Customers
+   
+   Findings: The dataset contains 1997 total records and 155 unique customers.
+
+   Business Impact: Understanding the volume of transactions and customer reach helps assess overall business activity.
+
+   Recommendation: If the number of unique customers is low compared to total records, Zenith should focus on customer acquisition and retention strategies.
+
+3. Distinct Product Categories and Top-Selling Categories
+   Findings: There are 3 distinct product categories. The highest revenue-generating category is Category Electronics with R313 810 in sales, followed by Category Clothing and Category Beauty.
+
+   Business Impact: Identifying top-performing categories helps optimize inventory and marketing strategies.
+
+   Recommendation: Invest in promotions for high-performing categories while reassessing the strategy for lower-performing ones.
+
+5. Data Quality and Missing Values
+
+   Findings: The dataset contains 3 missing quantity sold, 10 missing total sales, 10 customer ages values and 3 missing Cost Of Goods Sold(cogs).
+
+   Business Impact: Data gaps can affect the accuracy of customer insights and sales tracking.
+
+   Recommendation: Implement stricter data validation during entry and consider imputing missing values where necessary.
+
+6. Customer Demographics (Age & Gender) by Category
+
+   Findings:
+   - The average age of customers purchasing Beauty products is 40+ years.
+   - Gender-based trends show that Men are more likely to purchase Electronic and Clothing products.
+
+   Business Impact: Understanding demographics allows targeted marketing campaigns.
+
+   Recommendation: Leverage this data for personalised promotions, such as age-specific ads or gender-focused recommendations.
+
+8. High-Value Transactions (Above R1,000)
+
+   Findings: There were 306 transactions exceeding R1,000, mainly from Electronic and Clothing categories.
+
+   Business Impact: High-value transactions indicate premium customer segments.
+
+   Recommendation: Identify and engage these high-spending customers with loyalty programs or exclusive offers.
+
+10. Top Revenue-Generating Customers
+
+    Findings: The top 10 customers contributed R214 400 in total sales.
+
+    Business Impact: These customers are critical for business sustainability.
+
+    Recommendation: Implement VIP loyalty programs and personalized outreach to retain these customers.
+
+12. Purchasing Behavior by Gender
+    Findings:
+    - Males made 980 transactions across Beauty, Clothing and Electronic categories.
+    - Females made 1017 transactions across Beauty, Clothing and Electronic categories.
+    - Certain categories are more popular among specific genders. For example, Electronics is more popular amongst males whilst Beauty is more popular amongst females.
+    
+    Business Impact: Gender-based insights help refine marketing efforts.
+
+    Recommendation: Tailor advertising and promotions to align with gender-based purchasing behaviors.
